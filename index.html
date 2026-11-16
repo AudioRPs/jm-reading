@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>On Call with Joel</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700;800&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="bar">
+  <img class="logo" src="logo.png" alt="JM Coaching">
+  <span class="tag">On Call</span>
+  <span class="for">A sample built for Joel</span>
+</div></header>
+
+<main>
+  <section id="intro" class="screen on">
+    <div class="eyebrow"><i></i>Joel Mccleoud</div>
+    <h1>On Call</h1>
+    <p class="lead">Answer what you want to answer, and get Joel's answers for you.</p>
+    <button class="cta" id="startBtn">Start <span>→</span></button>
+    <div class="intro-clip" id="introClip"></div>
+  </section>
+
+  <section id="quiz" class="screen">
+    <div class="qtop">
+      <button class="back" id="backBtn">← Back</button>
+      <span class="count" id="count"></span>
+    </div>
+    <div class="prog"><i id="progBar"></i></div>
+    <div id="step"></div>
+    <button class="cta wide" id="nextBtn" disabled>Continue <span>→</span></button>
+    <div id="aside" class="aside"></div>
+  </section>
+
+  <section id="result" class="screen"></section>
+</main>
+
+<footer>
+  Every quote and clip on this page is Joel Mccleoud's own, taken from his public YouTube videos and linked to the exact second he said it.
+  A sample built to show what's possible.
+</footer>
+<div class="toast" id="toast"></div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
